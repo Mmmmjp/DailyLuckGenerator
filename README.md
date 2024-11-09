@@ -7,17 +7,21 @@ DailyLuckGenerator is a light-hearted fortune-telling web app built with JSP, de
 ## Current Features
 
 - **Initial Response:**
+
  The application responds when the page is requested, displaying a random fortune.
 
 - **Basic Styling:**
+
  Inline styling applied directly within HTML for a simple layout.
 
 
 ## Planned Features
 - **Enhanced Styling:**
+
  Improve the look and feel by integrating CSS and JavaScript.
 
 - **User Interaction:**
+
  Implement a POST request to capture user information (e.g., name) and display personalized responses. Add interactive elements like a "Start" button that triggers a new fortune response.
 
- 
+
