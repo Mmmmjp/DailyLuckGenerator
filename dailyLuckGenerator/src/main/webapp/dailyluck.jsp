@@ -23,11 +23,16 @@ String today = sdf.format(date);
  <head>
   <meta charset="UTF-8">
   <title>Daily Luck Generator!!☆★</title>
+
+  <link rel="stylesheet" href="CSS/style.css">
  </head>
 
  <body>
 	<h1>Welcome to Daily Luck Generator page.</h1>
-	<p>Your luck for <u><%=today%></u>: <strong><%= luck %></strong></p>
+
+	<div class="wrapper">
+	<p>Your luck for <span class="date"><%=today%></span>: </p>
+	<p class="luck"><%= luck %></p>
 	
 <% 
 switch (luck) {
@@ -63,6 +68,8 @@ switch (luck) {
 		break;
 } 
 %>
+
+	</div>
 	
  </body>
 </html>
