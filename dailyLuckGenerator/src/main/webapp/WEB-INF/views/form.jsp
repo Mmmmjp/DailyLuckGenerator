@@ -6,8 +6,8 @@
 <meta charset="UTF-8">
 <title>Daily Luck Generator App - form</title>
 
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/style.css">
-</head>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/./CSS/style1.css">
+
 <body>
 
     <h1>Welcome to the Daily Luck Generator!★☆彡</h1>

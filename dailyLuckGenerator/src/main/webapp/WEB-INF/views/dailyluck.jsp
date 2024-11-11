@@ -24,8 +24,8 @@ String today = sdf.format(date);
   <meta charset="UTF-8">
   <title>Daily Luck Generator!!☆★</title>
 
-  <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/style.css">
- </head>
+  <link rel="stylesheet" href="${pageContext.request.contextPath}/./CSS/style1.css">
+</head>
 
  <body>
 	<h1>Your Daily Luck for <span> <%= request.getAttribute("name")%>! </span></h1>
