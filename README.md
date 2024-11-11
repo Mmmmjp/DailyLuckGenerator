@@ -24,4 +24,6 @@ DailyLuckGenerator is a light-hearted fortune-telling web app built with JSP, de
 
  Implement a POST request to capture user information (e.g., name) and display personalized responses. Add interactive elements like a "Start" button that triggers a new fortune response.
 
+- **Structure updates** 
+![設計図](Docs/images/diagram_11_11_2024.jpg)
 
